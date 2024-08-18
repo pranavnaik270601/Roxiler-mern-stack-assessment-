@@ -1,0 +1,48 @@
+.transactions-statistics {
+  background: radial-gradient(circle, #e8eaea, #e0f2f1); /* Soft radial gradient for a fresh look */
+  padding: 40px; /* Increased padding for a more spacious feel */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px; /* More rounded corners for a modern appearance */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Enhanced shadow for greater depth */
+  margin: 30px auto; /* Centered with a bit more margin */
+  max-width: 900px; /* Increased max-width for better layout */
+}
+
+.statistics-container {
+  display: grid; /* Grid layout for optimal alignment */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid with wider items */
+  gap: 25px; /* Increased space between items */
+  background-color: #7ba8cd; /* Vivid blue background for strong visual impact */
+  border-radius: 16px; /* More rounded corners */
+  color: rgb(17, 12, 12);
+  padding: 25px; /* Enhanced padding for a more comfortable layout */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow effect */
+}
+
+.statistics-item {
+  display: flex;
+  flex-direction: column; /* Stacked layout for readability */
+  align-items: center;
+  justify-content: center;
+  background-color: #bbc7bb; /* Fresh green background */
+  border-radius: 12px; /* Rounded corners */
+  padding: 20px; /* Increased padding for a more spacious feel */
+  text-align: center; /* Center text alignment */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow effect */
+}
+
+.statistics-item p {
+  margin: 10px 0; /* More space between elements */
+  font-size: 20px; /* Larger font size for better readability */
+  font-family: 'Arial', sans-serif; /* Modern, clean font */
+}
+
+.statistics-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 28px; /* Larger font size for prominence */
+  margin-bottom: 30px; /* Added space below the title */
+  color: #333; /* Darker color for better contrast */
+  text-align: center;
+}

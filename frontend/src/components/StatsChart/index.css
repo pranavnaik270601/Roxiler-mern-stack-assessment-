@@ -1,0 +1,16 @@
+.chart-container {
+  background: linear-gradient(145deg, #ffffff, #e0e0e0); /* Soft gradient background */
+  height: 500px; /* Slightly reduced height for a compact look */
+  width: 900px;
+  padding: 20px; /* Consistent padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  border-radius: 16px; /* More rounded corners for a modern feel */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font for a sleek appearance */
+  margin: 30px auto; /* Centered with reduced margin */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow effect for more depth */
+  border: none; /* Removed border for a cleaner look */
+  overflow: hidden; /* Ensures content doesn’t overflow rounded corners */
+}
